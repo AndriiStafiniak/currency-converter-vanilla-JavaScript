@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Homework</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="css/style.css">
+   <link rel=" preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+   <script defer src="js/script.js"></script>
+</head>
+
+<body>
+   <form class="form js-form">
+      <fieldset class="form__fieldset">
+         <legend class="form__legend">Currency converter</legend>
+         <label class="form__label">
+            Wpisz kwote w PLN:
+            <input class="js-pln form__input" type="number" name="euro" min="1" step="any" placeholder="Kwota w PLN"
+               required>
+         </label>
+         <label>
+            Wybierz walute:
+            <select name="currency " class="form__select js-currency">
+               <option class="js-euro" value="EUR">Euro €</option>
+               <option class="js-dolar" value="USD">Dolar $</option>
+            </select>
+         </label>
+         <button class="form__button js-button">Oblicz</button>
+         <p class="form__paragraph">Wynik:<span class="form__span js-result">n/a</span></p>
+      </fieldset>
+   </form>
+</body>
+
+</html>
