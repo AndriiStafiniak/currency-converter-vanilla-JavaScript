@@ -17,7 +17,6 @@
 
    const onFormSubmit = (event) => {
       event.preventDefault();
-
       const plnElement = document.querySelector(".js-pln");
       const currencyElement = document.querySelector(".js-currency");
       const currency = currencyElement.value
@@ -27,7 +26,6 @@
 
    const init = () => {
       const formElement = document.querySelector(".js-form");
-
       formElement.addEventListener("submit", onFormSubmit);
    };
    init();
