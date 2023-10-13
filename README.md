@@ -10,12 +10,5 @@ This is a currency calculator. You can convert Polish (ZL) into US Dollar (USD) 
 - BEM convention
 
 ## How it works?
-1. Insert an amount in PLN.
 
-![screenShot1](images/scrSh1.png)
-2. Choose Currency you would like to convert to.
-
-![screenShot2](images/scSh2.png)
-3. Click "Oblicz".
-
-![screenShot3](images/scSh3.png)
+![GIF](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ245OGd4MDU2cXB1NGk4YnU1c2YwMXpjdmdlazZuNHUyYmJ2ZzBreCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/f4tVKuBiGOlfoG9kKs/giphy.gif)
