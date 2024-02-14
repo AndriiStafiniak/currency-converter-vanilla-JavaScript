@@ -1,6 +1,6 @@
 ![Photo](images/share.png)
 ## Demo:
-https://andriistafiniak.github.io/currency-converter-vanilla-JS/
+https://andriistafiniak.github.io/currency-converter-vanilla-JavaScript/
 ## Description:
 This is a currency calculator. You can convert Polish (ZL) into US Dollar (USD) or European Euro (EUR).
 ## Technologies used:
